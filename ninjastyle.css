@@ -1,0 +1,53 @@
+/**{
+	outline:1px dotted black;
+}*/
+
+div.header, div.body, div.footer{
+
+}
+
+div.container{
+	min-width: 700px;
+	min-height: 400px;
+	display: inline-block;
+}
+
+	div.header h1{
+	display: inline-block;
+	font-color: red;
+	font-family: "rockwell", serif;
+	}
+
+	div.header h2{
+	border: solid black 2px;
+	display: inline-block;
+	width: 50px;
+	}
+
+	div.body{
+	min-width: 790px;
+	}
+
+		div.box{
+		text-align: center;
+		display: inline-block;
+		min-height: 60px; 
+		min-width: 170px;
+		border: solid black 2px;
+		margin-right: 16px; 
+		background-color: D4AF37;
+		font-family: "papyrus", fantasy; 
+		font-color: red;
+		}
+		
+div.footer{
+display: block; 
+}
+	div.footer .messages{
+	overflow: scroll;
+	min-height: 150px; 
+	width: 750px;
+	border: solid black 2px;
+	display: center;
+	background-color: D4AF37;
+	}
